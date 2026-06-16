@@ -1,0 +1,9 @@
+{
+  "model": 9,
+  "factor_num": 2,
+  "factor_den": 1,
+  "gpu_id": 1,
+  "gpu_thread": 2,
+  "sc": true,
+  "downscale_width": 960
+}

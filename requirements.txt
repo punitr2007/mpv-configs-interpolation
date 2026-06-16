@@ -1,0 +1,4 @@
+# Python requirements for VapourSynth RIFE script execution
+# Note: VapourSynth is also package-managed by system libraries (e.g. pacman / apt)
+
+vapoursynth>=76
