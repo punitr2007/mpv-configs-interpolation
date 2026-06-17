@@ -55,5 +55,13 @@ mpv /path/to/your/video.mp4
 | **Model** | `v2.3 (Fast)`<br>`v3.9 (Fast)`<br>`v4.6`<br>`v4.12-lite`<br>`v4.22-lite`<br>`v4.26 (Latest)` | Choose between lightweight models (v2.3/v3.9) to guarantee 48fps/60fps playback speed, or heavier models (v4.6/v4.26) for maximum visual quality. |
 | **GPU Device** | `NVIDIA (GPU 1)` / `AMD (GPU 0)` | Select index `1` for high-performance NVIDIA hardware acceleration, or index `0` for the integrated AMD GPU. |
 | **GPU Threads** | `1`, `2`, `4` | Concurrency thread count. `2` is recommended. Set to `1` if you notice any driver stability/device lost errors. |
-| **Scene Detect** | `On` / `Off` | Toggles scene change protection (prevents blending artifacts across cuts). |
+| **Downscale** | `None` / `720p` / `540p` | Choose between downscaling resolutions to match hardware headroom. |
 | **Framerate** | `2x` / `4x` | Target framerate multiplier. |
+
+---
+
+## 5. Android Concept UI Layout
+
+Here is a premium mockup design of a native Android Video Player UI designed to control this real-time frame interpolation pipeline on mobile devices:
+
+![Android Player UI Mockup](/home/punit/.gemini/antigravity-ide/brain/05cb623f-e734-4f4e-ac00-f9af59b90af5/android_player_ui_mockup_1781682748453.png)
